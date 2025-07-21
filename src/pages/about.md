@@ -1,11 +1,11 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "About Me"
 ---
 
 ## Professional Summary
 
-Recent Computer Science graduate with hands-on experience in AI, machine learning, and natural language processing. Passionate about innovation, continuous learning, and applying cutting-edge techniques to real-world problems. Known for adaptability, curiosity, and a growth mindset—viewing challenges as opportunities for improvement. Authorized to work in Canada under an Open Work Permit (OWP), actively seeking a role in AI or applied ML to contribute to impactful and forward-thinking projects.
+Recent Computer Science graduate with hands-on experience in AI, machine learning, and natural language processing. Passionate about innovation, continuous learning, and applying cutting-edge techniques to real-world problems. Known for adaptability, curiosity, and a growth mindset—viewing challenges as opportunities for improvement. Legally authorized to work in Canada, actively seeking a role in AI or applied ML to contribute to impactful and forward-thinking projects.
 
 ---
 

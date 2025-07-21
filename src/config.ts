@@ -4,7 +4,7 @@ export const SITE = {
   profile: "https://sumyg.github.io/about",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "Sum Yeung",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "favicon.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
