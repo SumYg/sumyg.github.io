@@ -4,7 +4,7 @@
   "version": "5.5.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build && pagefind --site docs && xcopy docs\\pagefind public\\ /E /I /Y",
+    "build": "astro check && astro build && pagefind --site docs && xcopy docs\\pagefind public\\ /E /I /Y && echo > docs/.nojekyll",
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",
