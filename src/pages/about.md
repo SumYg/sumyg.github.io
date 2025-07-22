@@ -12,7 +12,7 @@ Recent Computer Science graduate with hands-on experience in AI, machine learnin
 ## Experience
 
 ### Software Engineer  
-**iSWIM Technology – AI-driven insurtech startup**  
+**[iSWIM Technology](https://iswim.com.hk/) – AI-driven insurtech startup**  
 *July 2023 – April 2025*  
 - Developed robust document classification models to accelerate human filing from days to hours; evaluated TF-IDF, text embeddings, and text-layout hybrid models.  
 - Designed LLM-based data extraction pipelines to structure information from unstructured and semi-structured documents and images.  
@@ -22,7 +22,7 @@ Recent Computer Science graduate with hands-on experience in AI, machine learnin
 - Deployed scalable model hosting and inference infrastructure, integrating custom models, embeddings, and Whisper for code-switched transcription.
 
 ### Software Engineering Intern  
-**Aspex Management – Hedge fund, Hong Kong**  
+**[Aspex Management](http://www.aspexmanagement.com/) – Hedge fund, Hong Kong**  
 *June 2022 – August 2022*  
 - Enhanced NLP tasks, including job post and Twitter sentiment analysis, using AWS Comprehend and spaCy with result visualizations.  
 - Designed and implemented data ingestion pipelines for diverse data vendors, improving data accessibility.  
@@ -30,7 +30,7 @@ Recent Computer Science graduate with hands-on experience in AI, machine learnin
 - Gained hands-on experience in database design concepts while utilizing AWS S3 and Redshift.
 
 ### IT Intern / Part-Time  
-**TRM (HK) Limited – Leading work injury insurance broker, Hong Kong**  
+**[TRM (HK) Limited](https://www.trm.com.hk/) – Leading work injury insurance broker, Hong Kong**  
 *June 2021 – May 2022, September 2022 – June 2023*  
 - Extracted valuable data from cheques, forms, and PDFs using OpenCV and Google OCR.  
 - Automated document workflows via GCP APIs, including file splitting, classification (word count), and filing.  
@@ -62,7 +62,7 @@ The University of Hong Kong – Ranked 17th globally and 18th in Data Science an
 - Second Class Honours (Division One)  
 - Core Courses: Programming, Data Structures, OS, Networks, Algorithms, Software Engineering  
 - Electives: Deep Learning, NLP, Machine Learning, Big Data & Data Mining, IoT, Statistics, Security  
-- Final Year Project supervised by Prof. Lingpeng Kong
+- Final Year Project supervised by [Prof. Lingpeng Kong](https://ikekonglp.github.io/)
 
 ---
 
