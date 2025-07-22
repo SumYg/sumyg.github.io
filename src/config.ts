@@ -2,7 +2,7 @@ export const SITE = {
   website: "https://sumyg.github.io/", // replace this with your deployed domain
   author: "Sum Yeung",
   profile: "https://sumyg.github.io/about",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  desc: "A personal blog.",
   title: "Sum Yeung",
   ogImage: "favicon.png",
   lightAndDarkMode: true,
