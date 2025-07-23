@@ -267,6 +267,7 @@ About
 <ul>
 <li><a href="#-project-overview">🎯 Project Overview</a>
 <ul>
+<li><a href="#motivation--prior-work">Motivation &#x26; Prior Work</a></li>
 <li><a href="#key-innovation">Key Innovation</a></li>
 <li><a href="#technical-approach">Technical Approach</a></li>
 </ul>
@@ -325,10 +326,19 @@ About
 </li>
 <li><a href="#-links--resources">🔗 Links &#x26; Resources</a></li>
 <li><a href="#what-i-learned">What I Learned</a></li>
+<li><a href="#-future-work--to-do">🔮 Future Work &#x26; To-Do</a>
+<ul>
+<li><a href="#-model-development">🎯 Model Development</a></li>
+<li><a href="#-cross-platform-deployment">📱 Cross-Platform Deployment</a></li>
+</ul>
+</li>
 </ul>
 <p></p></details><p></p>
 <h2 id="-project-overview">🎯 Project Overview</h2>
-<p>ElephantFormer is a sophisticated AI system that learns to play [Elephant Chess](link to wiki) using modern Transformer architecture. Unlike traditional chess engines that rely on hand-crafted evaluation functions and minimax algorithms, ElephantFormer learns strategic patterns directly from game data through deep learning.</p>
+<p>ElephantFormer is a sophisticated AI system that learns to play <a href="https://en.wikipedia.org/wiki/Xiangqi" rel="noopener noreferrer" target="_blank">Elephant Chess</a> using modern Transformer architecture. Unlike traditional chess engines that rely on hand-crafted evaluation functions and minimax algorithms, ElephantFormer learns strategic patterns directly from game data through deep learning.</p>
+<h3 id="motivation--prior-work">Motivation &#x26; Prior Work</h3>
+<p>While powerful traditional engines like <a href="https://github.com/official-pikafish/Pikafish" rel="noopener noreferrer" target="_blank">Pikafish</a> — a state-of-the-art xiangqi engine adapted from Stockfish that combines alpha-beta search with neural network evaluation — dominate competitive play, this project explores an alternative approach: end-to-end learning of chess strategy using pure Transformer architecture.</p>
+<p>By treating chess as a sequence modeling problem, ElephantFormer aims to capture the nuanced patterns of strategic play without explicit game tree search, offering insights into how modern language model architectures can be adapted for complex strategic games.</p>
 <div class="project-stats">
   <div class="stat">
     <span class="stat-number">4</span>
@@ -579,8 +589,7 @@ About
 <ul>
 <li><strong>GitHub Repository:</strong> <a href="https://github.com/SumYg/ElephantFormer" rel="noopener noreferrer" target="_blank">ElephantFormer</a></li>
 <li><strong>Documentation:</strong> Complete setup and usage guides included</li>
-<li><strong>Demo Video:</strong> [Watch Demo] (Add your demo video link)</li>
-<li><strong>Technical Deep Dive:</strong> [Blog Post] (Add link to detailed blog post)</li>
+<li><strong>Demo Video:</strong> TODO</li>
 </ul>
 <hr>
 <h2 id="what-i-learned">What I Learned</h2>
@@ -592,6 +601,19 @@ About
 <li><strong>Production ML Pipeline:</strong> Building complete train/evaluate/inference pipeline with proper checkpointing and evaluation</li>
 </ol>
 <p>The most challenging aspect was balancing the model’s creative freedom with the strict constraints of legal gameplay - a problem that taught me valuable lessons about constrained generation in AI systems.</p>
+<h2 id="-future-work--to-do">🔮 Future Work &#x26; To-Do</h2>
+<h3 id="-model-development">🎯 Model Development</h3>
+<ul>
+<li><strong>Benchmark against Pikafish</strong>: Evaluate ElephantFormer’s performance against the state-of-the-art Pikafish engine to establish competitive baseline metrics</li>
+<li><strong>PPO Integration</strong>: Explore the effectiveness and potential of using Proximal Policy Optimization (PPO) in offline reinforcement learning settings for strategic improvement</li>
+</ul>
+<h3 id="-cross-platform-deployment">📱 Cross-Platform Deployment</h3>
+<ul>
+<li><strong>Mobile Application</strong>: Deploy the trained model on iOS/Android platforms for portable xiangqi gameplay</li>
+<li><strong>Web Interface</strong>: Create a browser-based implementation for accessible online play</li>
+<li><strong>Model Optimization</strong>: Optimize model size and inference speed for resource-constrained environments</li>
+<li><strong>Real-time Performance</strong>: Ensure smooth gameplay experience across different devices and platforms</li>
+</ul>
 <hr>
 <p><em>This project represents my exploration into applying modern NLP techniques to traditional game AI problems, demonstrating both technical depth and practical engineering skills.</em></p> </article> <hr class="my-8 border-dashed">  <ul class="mt-4 mb-8 sm:my-8"> <li class="group inline-block group-hover:cursor-pointer my-1 underline-offset-4"> <a href="/tags/ai/" class="relative pe-2 text-lg underline decoration-dashed group-hover:-top-0.5 group-hover:text-accent focus-visible:p-1 focus-visible:no-underline inline-flex items-center text-sm" data-astro-transition-scope="astro-36ssibgs-2"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-80 mr-1 size-4"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 9l14 0" /><path d="M5 15l14 0" /><path d="M11 4l-4 16" /><path d="M17 4l-4 16" /></svg> <span>AI</span> </a> </li><li class="group inline-block group-hover:cursor-pointer my-1 underline-offset-4"> <a href="/tags/machine-learning/" class="relative pe-2 text-lg underline decoration-dashed group-hover:-top-0.5 group-hover:text-accent focus-visible:p-1 focus-visible:no-underline inline-flex items-center text-sm" data-astro-transition-scope="astro-36ssibgs-3"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-80 mr-1 size-4"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 9l14 0" /><path d="M5 15l14 0" /><path d="M11 4l-4 16" /><path d="M17 4l-4 16" /></svg> <span>Machine Learning</span> </a> </li><li class="group inline-block group-hover:cursor-pointer my-1 underline-offset-4"> <a href="/tags/py-torch/" class="relative pe-2 text-lg underline decoration-dashed group-hover:-top-0.5 group-hover:text-accent focus-visible:p-1 focus-visible:no-underline inline-flex items-center text-sm" data-astro-transition-scope="astro-36ssibgs-4"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-80 mr-1 size-4"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 9l14 0" /><path d="M5 15l14 0" /><path d="M11 4l-4 16" /><path d="M17 4l-4 16" /></svg> <span>PyTorch</span> </a> </li><li class="group inline-block group-hover:cursor-pointer my-1 underline-offset-4"> <a href="/tags/transformers/" class="relative pe-2 text-lg underline decoration-dashed group-hover:-top-0.5 group-hover:text-accent focus-visible:p-1 focus-visible:no-underline inline-flex items-center text-sm" data-astro-transition-scope="astro-36ssibgs-5"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-80 mr-1 size-4"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 9l14 0" /><path d="M5 15l14 0" /><path d="M11 4l-4 16" /><path d="M17 4l-4 16" /></svg> <span>Transformers</span> </a> </li><li class="group inline-block group-hover:cursor-pointer my-1 underline-offset-4"> <a href="/tags/game-ai/" class="relative pe-2 text-lg underline decoration-dashed group-hover:-top-0.5 group-hover:text-accent focus-visible:p-1 focus-visible:no-underline inline-flex items-center text-sm" data-astro-transition-scope="astro-36ssibgs-6"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-80 mr-1 size-4"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 9l14 0" /><path d="M5 15l14 0" /><path d="M11 4l-4 16" /><path d="M17 4l-4 16" /></svg> <span>Game AI</span> </a> </li><li class="group inline-block group-hover:cursor-pointer my-1 underline-offset-4"> <a href="/tags/python/" class="relative pe-2 text-lg underline decoration-dashed group-hover:-top-0.5 group-hover:text-accent focus-visible:p-1 focus-visible:no-underline inline-flex items-center text-sm" data-astro-transition-scope="astro-36ssibgs-7"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-80 mr-1 size-4"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 9l14 0" /><path d="M5 15l14 0" /><path d="M11 4l-4 16" /><path d="M17 4l-4 16" /></svg> <span>Python</span> </a> </li> </ul> <div id="btt-btn-container" class="fixed end-4 bottom-8 z-50 md:sticky md:end-auto md:float-end md:me-1 translate-y-14 opacity-0 transition duration-500"> <button data-button="back-to-top" class="group relative bg-background px-2 py-1 size-14 rounded-full shadow-xl md:h-8 md:w-fit md:rounded-md md:shadow-none md:focus-visible:rounded-none md:bg-background/35 md:bg-clip-padding md:backdrop-blur-lg"> <span id="progress-indicator" class="absolute inset-0 -z-10 block size-14 scale-110 rounded-full bg-transparent md:hidden md:h-8 md:rounded-md"></span> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block rotate-90 md:hidden"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M15 6l-6 6l6 6" /></svg> <span class="sr-only text-sm group-hover:text-accent md:not-sr-only"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 5l0 14" /><path d="M16 9l-4 -4" /><path d="M8 9l4 -4" /></svg>
 Back To Top
