@@ -255,8 +255,7 @@ uv run python -m elephant_former.inference.generator \
 
 - **GitHub Repository:** [ElephantFormer](https://github.com/SumYg/ElephantFormer)
 - **Documentation:** Complete setup and usage guides included
-- **Demo Video:** [Watch Demo] (Add your demo video link)
-- **Technical Deep Dive:** [Blog Post] (Add link to detailed blog post)
+- **Demo Video:** TODO
 
 ---
 
