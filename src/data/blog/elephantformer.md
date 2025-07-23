@@ -20,7 +20,7 @@ ElephantFormer is a sophisticated AI system that learns to play [Elephant Chess]
 
 ### Motivation & Prior Work
 
-While powerful traditional engines like [Pikafish](https://github.com/official-pikafish/Pikafish) — a state-of-the-art xiangqi engine adapted from Stockfish that combines alpha-beta search with neural network evaluation — dominate competitive play, this project explores an alternative approach: end-to-end learning of chess strategy using pure Transformer architecture. 
+While powerful traditional engines like [Pikafish](https://github.com/official-pikafish/Pikafish) — a state-of-the-art xiangqi engine adapted from [Stockfish](https://github.com/official-stockfish/Stockfish) that combines alpha-beta search with neural network evaluation — dominate competitive play, this project explores an alternative approach: end-to-end learning of chess strategy using pure Transformer architecture. 
 
 By treating chess as a sequence modeling problem, ElephantFormer aims to capture the nuanced patterns of strategic play without explicit game tree search, offering insights into how modern language model architectures can be adapted for complex strategic games.
 
@@ -274,7 +274,7 @@ The most challenging aspect was balancing the model's creative freedom with the 
 
 ### 🎯 Model Development
 - **Benchmark against Pikafish**: Evaluate ElephantFormer's performance against the state-of-the-art Pikafish engine to establish competitive baseline metrics
-- **PPO Integration**: Explore the effectiveness and potential of using Proximal Policy Optimization (PPO) in offline reinforcement learning settings for strategic improvement
+- **PPO Integration**: Explore the effectiveness and potential of using Proximal Policy Optimization (PPO) in [offline reinforcement learning](https://huggingface.co/learn/deep-rl-course/unitbonus3/offline-online) settings for strategic improvement
 
 ### 📱 Cross-Platform Deployment
 - **Mobile Application**: Deploy the trained model on iOS/Android platforms for portable xiangqi gameplay
