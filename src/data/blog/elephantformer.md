@@ -16,7 +16,13 @@ hideEditPost: true
 
 ## 🎯 Project Overview
 
-ElephantFormer is a sophisticated AI system that learns to play [Elephant Chess](link to wiki) using modern Transformer architecture. Unlike traditional chess engines that rely on hand-crafted evaluation functions and minimax algorithms, ElephantFormer learns strategic patterns directly from game data through deep learning.
+ElephantFormer is a sophisticated AI system that learns to play [Elephant Chess](https://en.wikipedia.org/wiki/Xiangqi) using modern Transformer architecture. Unlike traditional chess engines that rely on hand-crafted evaluation functions and minimax algorithms, ElephantFormer learns strategic patterns directly from game data through deep learning.
+
+### Motivation & Prior Work
+
+While powerful traditional engines like [Pikafish](https://github.com/official-pikafish/Pikafish) — a state-of-the-art xiangqi engine adapted from Stockfish that combines alpha-beta search with neural network evaluation — dominate competitive play, this project explores an alternative approach: end-to-end learning of chess strategy using pure Transformer architecture. 
+
+By treating chess as a sequence modeling problem, ElephantFormer aims to capture the nuanced patterns of strategic play without explicit game tree search, offering insights into how modern language model architectures can be adapted for complex strategic games.
 
 <div class="project-stats">
   <div class="stat">
@@ -264,6 +270,18 @@ This project pushed me to solve several complex problems at the intersection of 
 4. **Production ML Pipeline:** Building complete train/evaluate/inference pipeline with proper checkpointing and evaluation
 
 The most challenging aspect was balancing the model's creative freedom with the strict constraints of legal gameplay - a problem that taught me valuable lessons about constrained generation in AI systems.
+
+## 🔮 Future Work & To-Do
+
+### 🎯 Model Development
+- **Benchmark against Pikafish**: Evaluate ElephantFormer's performance against the state-of-the-art Pikafish engine to establish competitive baseline metrics
+- **PPO Integration**: Explore the effectiveness and potential of using Proximal Policy Optimization (PPO) in offline reinforcement learning settings for strategic improvement
+
+### 📱 Cross-Platform Deployment
+- **Mobile Application**: Deploy the trained model on iOS/Android platforms for portable xiangqi gameplay
+- **Web Interface**: Create a browser-based implementation for accessible online play
+- **Model Optimization**: Optimize model size and inference speed for resource-constrained environments
+- **Real-time Performance**: Ensure smooth gameplay experience across different devices and platforms
 
 ---
 

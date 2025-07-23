@@ -68,7 +68,7 @@ The University of Hong Kong – Ranked 17th globally and 18th in Data Science an
 
 ## Skills
 
-- **Languages:** Cantonese (Expert), English (Advanced), Mandarin (Advanced)  
+- **Languages:** Cantonese (Native), English (Advanced), Mandarin (Advanced)  
 - **Programming Languages:** Python, Java, JavaScript, C#, C, C++, SQL  
 - **ML/AI Frameworks & Libraries:** LangChain, PyTorch, scikit-learn, XGBoost, Hugging Face, spaCy, PyTorch Lightning, OpenMMLab  
 - **LLMs:** OpenAI models (GPT-3.5, GPT-4, GPT-4o, GPT-4.1), Claude, Gemini  
