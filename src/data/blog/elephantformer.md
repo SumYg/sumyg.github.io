@@ -247,10 +247,10 @@ This discovery demonstrates how transformer architecture constraints manifest in
 ✅ Generates 100% legal moves through engine integration  
 ✅ **Discovered counterintuitive performance boundaries** tied to transformer sequence length limits
 ✅ Handles variable-length game sequences effectively  
-✅ **Achieved statistical significance** in comprehensive 1,241-game analysis
-✅ **Peak performance of 63.4%** win rate in optimal game length range (129-192 moves)
+✅ **Achieved statistical significance** in comprehensive 1,241-game analysis  
+✅ **Peak performance of 63.4%** win rate in optimal game length range (129-192 moves)  
 ✅ Scalable architecture for different model sizes  
-✅ **Research-quality evaluation methodology** with proper statistical rigor
+✅ **Research-quality evaluation methodology** with proper statistical rigor  
 ✅ **Novel insights** into transformer architecture constraints in strategic domains  
 
 ## 🧩 Technical Challenges & Solutions
