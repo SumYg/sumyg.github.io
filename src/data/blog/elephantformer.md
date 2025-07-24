@@ -306,7 +306,9 @@ uv run python -m elephant_former.inference.generator \
 
 - **GitHub Repository:** [ElephantFormer](https://github.com/SumYg/ElephantFormer)
 - **Documentation:** Complete setup and usage guides included
-- **Demo Video:** 
+- **Demo Video:**  ElephantFormer's self-play capabilities - the trained AI model playing a complete game 
+  of Elephant Chess against itself, demonstrating learned strategic patterns and legal move generation in
+   real-time.
   <video controls width="100%" style="max-width: 800px; margin: 20px 0;">
     <source src="/assets/videos/ElephantFormer_Demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
