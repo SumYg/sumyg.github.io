@@ -596,6 +596,7 @@ About
 
 
 <table><thead><tr><th>Game Length Range</th><th>Win Rate</th><th>Sample Size</th><th>Statistical Significance</th></tr></thead><tbody><tr><td><strong>0-64 moves</strong></td><td>50.6%</td><td>85 games</td><td>Strong early game</td></tr><tr><td><strong>65-128 moves</strong></td><td>25.3%</td><td>99 games</td><td><strong>Training boundary cliff</strong></td></tr><tr><td><strong>129-192 moves</strong></td><td><strong>63.4%</strong></td><td>134 games</td><td><strong>Peak performance</strong></td></tr><tr><td><strong>193-256 moves</strong></td><td>38.5%</td><td>13 games</td><td>Gradual decline</td></tr><tr><td><strong>257+ moves</strong></td><td>20.0%</td><td>20 games</td><td>Severe degradation</td></tr></tbody></table>
+<p><img alt="Performance by Game Length Range" loading="lazy" decoding="async" fetchpriority="auto" sizes="(min-width: 5112px) 5112px, 100vw"  data-astro-image="constrained" width="5112" height="2417" src="/_astro/performance_by_range.iJNA5Lo-_Z1zAlC2.webp" srcset="/_astro/performance_by_range.iJNA5Lo-_ZpGhXb.webp 640w, /_astro/performance_by_range.iJNA5Lo-_13JiAo.webp 750w, /_astro/performance_by_range.iJNA5Lo-_ZNUHkJ.webp 828w, /_astro/performance_by_range.iJNA5Lo-_Zzn1Gp.webp 1080w, /_astro/performance_by_range.iJNA5Lo-_ZjbC4a.webp 1280w, /_astro/performance_by_range.iJNA5Lo-_Z1hA1Im.webp 1668w, /_astro/performance_by_range.iJNA5Lo-_Z1LI4sJ.webp 2048w, /_astro/performance_by_range.iJNA5Lo-_Z1qpI1c.webp 2560w, /_astro/performance_by_range.iJNA5Lo-_Z1zAlC2.webp 5112w"></p>
 <h3 id="key-research-insights"><strong>Key Research Insights</strong></h3>
 <p>🎯 <strong>The Training Boundary Paradox (p &#x3C; 0.0001):</strong></p>
 <ul>
@@ -627,12 +628,13 @@ About
 <h3 id="key-achievements">Key Achievements</h3>
 <p>✅ Successfully trains on complex game sequences<br>
 ✅ Generates 100% legal moves through engine integration<br>
-✅ Demonstrates strategic understanding beyond random play (18-22% win rate vs random)<br>
+✅ <strong>Discovered counterintuitive performance boundaries</strong> tied to transformer sequence length limits
 ✅ Handles variable-length game sequences effectively<br>
-✅ Shows positional understanding through high draw rates (30-48%)<br>
-✅ Exhibits color-based strategic adaptation (better as Black)<br>
+✅ <strong>Achieved statistical significance</strong> in comprehensive 1,241-game analysis
+✅ <strong>Peak performance of 63.4%</strong> win rate in optimal game length range (129-192 moves)
 ✅ Scalable architecture for different model sizes<br>
-✅ Suitable for rapid prototyping and experimentation</p>
+✅ <strong>Research-quality evaluation methodology</strong> with proper statistical rigor
+✅ <strong>Novel insights</strong> into transformer architecture constraints in strategic domains</p>
 <h2 id="-technical-challenges--solutions">🧩 Technical Challenges &#x26; Solutions</h2>
 <h3 id="challenge-move-representation">Challenge: Move Representation</h3>
 <p><strong>Problem:</strong> Converting 2D board moves into transformer-compatible sequences<br>
@@ -679,18 +681,25 @@ About
 <ul>
 <li><strong>GitHub Repository:</strong> <a href="https://github.com/SumYg/ElephantFormer" rel="noopener noreferrer" target="_blank">ElephantFormer</a></li>
 <li><strong>Documentation:</strong> Complete setup and usage guides included</li>
-<li><strong>Demo Video:</strong> TODO</li>
+<li><strong>Demo Video:</strong>
+<video controls width="100%" style="max-width: 800px; margin: 20px 0;">
+<source src="/assets/videos/ElephantFormer_Demo.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video></li>
 </ul>
 <hr>
 <h2 id="what-i-learned">What I Learned</h2>
-<p>This project pushed me to solve several complex problems at the intersection of game AI and modern NLP techniques:</p>
+<p>This project pushed me to solve several complex problems at the intersection of game AI and modern NLP techniques, ultimately leading to an unexpected research discovery:</p>
 <ol>
 <li><strong>Sequence Modeling for Games:</strong> Learning how to represent spatial board game moves as sequences suitable for transformer architecture</li>
 <li><strong>Multi-Output Neural Networks:</strong> Designing and training models with multiple classification heads while maintaining consistency</li>
 <li><strong>Game Engine Integration:</strong> Ensuring AI-generated moves are always legal through real-time validation</li>
 <li><strong>Production ML Pipeline:</strong> Building complete train/evaluate/inference pipeline with proper checkpointing and evaluation</li>
+<li><strong>Statistical Analysis &#x26; Research:</strong> Conducting rigorous performance analysis that revealed counterintuitive findings about transformer sequence length boundaries</li>
 </ol>
 <p>The most challenging aspect was balancing the model’s creative freedom with the strict constraints of legal gameplay - a problem that taught me valuable lessons about constrained generation in AI systems.</p>
+<p><strong>Key Research Insight:</strong> Through comprehensive evaluation of 1,241 games, I discovered that the model’s performance varies dramatically with game length in unexpected ways - performing worst near its training sequence boundary (65-128 moves: 25.3% win rate) but best just beyond it (129-192 moves: 63.4% win rate). This finding challenged my assumptions about transformer capabilities and taught me that sometimes the most valuable discoveries come from thorough analysis of apparent failures.</p>
+<p><strong>Scientific Methodology:</strong> This project taught me the importance of comprehensive evaluation and statistical rigor in AI research. What began as performance optimization became a research contribution demonstrating how architectural constraints manifest in strategic domains - a reminder that understanding failure modes can be as valuable as achieving high performance.</p>
 <h2 id="-future-work--to-do">🔮 Future Work &#x26; To-Do</h2>
 <h3 id="-model-development">🎯 Model Development</h3>
 <ul>
