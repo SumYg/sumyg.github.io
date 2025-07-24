@@ -184,7 +184,7 @@ python -m elephant_former.evaluation.evaluator \
 
 ### Model Performance Analysis
 
-The model achieved a **12.49% prediction accuracy** on the test set (7,027 correct predictions out of 56,277 total moves), evaluated against 642 games from Epoch 22 with validation loss of 6.36. While this accuracy reflects the challenging nature of exact move prediction in chess, the model demonstrates several key capabilities:
+The model at training epoch 22 (validation loss: 6.36) achieved a **12.49% prediction accuracy** on the test set, correctly predicting 7,027 out of 56,277 moves across 642 games. While this accuracy reflects the challenging nature of exact move prediction in chess, the model demonstrates several key capabilities:
 
 **Win Rate Performance**: In comprehensive gameplay evaluation against random opponents, the model achieved consistent win rates:
 - **Playing as Red**: 18% win rate (9 wins, 26 losses, 15 draws) - 50 games
