@@ -214,6 +214,8 @@ Through comprehensive analysis of **1,241 games** across different game lengths,
 | **193-256 moves** | 38.5% | 13 games | Gradual decline |
 | **257+ moves** | 20.0% | 20 games | Severe degradation |
 
+![Performance by Game Length Range](@/assets/images/performance_by_range.png)
+
 ### **Key Research Insights**
 
 🎯 **The Training Boundary Paradox (p < 0.0001):**
@@ -243,12 +245,13 @@ This discovery demonstrates how transformer architecture constraints manifest in
 ### Key Achievements
 ✅ Successfully trains on complex game sequences  
 ✅ Generates 100% legal moves through engine integration  
-✅ Demonstrates strategic understanding beyond random play (18-22% win rate vs random)  
+✅ **Discovered counterintuitive performance boundaries** tied to transformer sequence length limits
 ✅ Handles variable-length game sequences effectively  
-✅ Shows positional understanding through high draw rates (30-48%)  
-✅ Exhibits color-based strategic adaptation (better as Black)  
+✅ **Achieved statistical significance** in comprehensive 1,241-game analysis
+✅ **Peak performance of 63.4%** win rate in optimal game length range (129-192 moves)
 ✅ Scalable architecture for different model sizes  
-✅ Suitable for rapid prototyping and experimentation  
+✅ **Research-quality evaluation methodology** with proper statistical rigor
+✅ **Novel insights** into transformer architecture constraints in strategic domains  
 
 ## 🧩 Technical Challenges & Solutions
 
@@ -303,20 +306,29 @@ uv run python -m elephant_former.inference.generator \
 
 - **GitHub Repository:** [ElephantFormer](https://github.com/SumYg/ElephantFormer)
 - **Documentation:** Complete setup and usage guides included
-- **Demo Video:** TODO
+- **Demo Video:** 
+  <video controls width="100%" style="max-width: 800px; margin: 20px 0;">
+    <source src="/assets/videos/ElephantFormer_Demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
 ---
 
 ## What I Learned
 
-This project pushed me to solve several complex problems at the intersection of game AI and modern NLP techniques:
+This project pushed me to solve several complex problems at the intersection of game AI and modern NLP techniques, ultimately leading to an unexpected research discovery:
 
 1. **Sequence Modeling for Games:** Learning how to represent spatial board game moves as sequences suitable for transformer architecture
 2. **Multi-Output Neural Networks:** Designing and training models with multiple classification heads while maintaining consistency
 3. **Game Engine Integration:** Ensuring AI-generated moves are always legal through real-time validation
 4. **Production ML Pipeline:** Building complete train/evaluate/inference pipeline with proper checkpointing and evaluation
+5. **Statistical Analysis & Research:** Conducting rigorous performance analysis that revealed counterintuitive findings about transformer sequence length boundaries
 
 The most challenging aspect was balancing the model's creative freedom with the strict constraints of legal gameplay - a problem that taught me valuable lessons about constrained generation in AI systems.
+
+**Key Research Insight:** Through comprehensive evaluation of 1,241 games, I discovered that the model's performance varies dramatically with game length in unexpected ways - performing worst near its training sequence boundary (65-128 moves: 25.3% win rate) but best just beyond it (129-192 moves: 63.4% win rate). This finding challenged my assumptions about transformer capabilities and taught me that sometimes the most valuable discoveries come from thorough analysis of apparent failures.
+
+**Scientific Methodology:** This project taught me the importance of comprehensive evaluation and statistical rigor in AI research. What began as performance optimization became a research contribution demonstrating how architectural constraints manifest in strategic domains - a reminder that understanding failure modes can be as valuable as achieving high performance.
 
 ## 🔮 Future Work & To-Do
 
