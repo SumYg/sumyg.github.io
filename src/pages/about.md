@@ -3,77 +3,56 @@ layout: ../layouts/AboutLayout.astro
 title: "About Me"
 ---
 
-## Professional Summary
+## Hey there! 👋
 
-Recent Computer Science graduate with hands-on experience in AI, machine learning, and natural language processing. Passionate about innovation, continuous learning, and applying cutting-edge techniques to real-world problems. Known for adaptability, curiosity, and a growth mindset—viewing challenges as opportunities for improvement. Legally authorized to work in Canada, actively seeking a role in AI or applied ML to contribute to impactful and forward-thinking projects.
+I'm Sum, a software engineer passionate about building AI systems that solve real-world problems. What started as curiosity about how machines could "think" during my Computer Science studies at HKU has evolved into a career focused on creating practical AI applications that make people's lives easier.
 
----
-
-## Experience
-
-### Software Engineer  
-**[iSWIM Technology](https://iswim.com.hk/) – AI-driven insurtech startup**  
-*July 2023 – April 2025*  
-- Developed robust document classification models to accelerate human filing from days to hours; evaluated TF-IDF, text embeddings, and text-layout hybrid models.  
-- Designed LLM-based data extraction pipelines to structure information from unstructured and semi-structured documents and images.  
-- Built LLM-powered RAG applications, AI agents to enhance report writing and legal judgment retrieval.  
-- Trained regression and time series models to forecast work injury case outcomes and progression.  
-- Conducted data-driven workflow reviews utilizing action notes and financial data to identify critical issues.  
-- Deployed scalable model hosting and inference infrastructure, integrating custom models, embeddings, and Whisper for code-switched transcription.
-
-### Software Engineering Intern  
-**[Aspex Management](http://www.aspexmanagement.com/) – Hedge fund, Hong Kong**  
-*June 2022 – August 2022*  
-- Enhanced NLP tasks, including job post and Twitter sentiment analysis, using AWS Comprehend and spaCy with result visualizations.  
-- Designed and implemented data ingestion pipelines for diverse data vendors, improving data accessibility.  
-- Integrated APIs from LinkedIn and YFinance, visualizing insights in Tableau for better decision-making.  
-- Gained hands-on experience in database design concepts while utilizing AWS S3 and Redshift.
-
-### IT Intern / Part-Time  
-**[TRM (HK) Limited](https://www.trm.com.hk/) – Leading work injury insurance broker, Hong Kong**  
-*June 2021 – May 2022, September 2022 – June 2023*  
-- Extracted valuable data from cheques, forms, and PDFs using OpenCV and Google OCR.  
-- Automated document workflows via GCP APIs, including file splitting, classification (word count), and filing.  
-- Built a document management system using React.js, Express.js, and MariaDB.
+Currently, I'm fascinated by the intersection of traditional software engineering and AI – building systems that don't just work in research notebooks, but can handle thousands of documents daily, process audio in real-time, and seamlessly integrate into business workflows.
 
 ---
 
-## Experience and Knowledge Highlight
+## What I'm Working On
 
-### Final Year Project: Deep Learning Based Public Sentiment Analysis System  
-- Self-initiated project for fine-grained sentiment analysis and opinion mining on social media.  
-- Utilized Apache Spark for distributed data processing and PyTorch’s DataParallel for model training.  
-- Compared self-trained RNN-based Variational Autoencoders (VAEs) with Transformer-based model SimCSE.  
-- Developed a full-stack system capable of daily sentiment monitoring and opinion mining.
+### AI-Powered Chess Engine: ElephantFormer
+I recently built an end-to-end transformer-based chess AI for Xiangqi (Chinese Chess) that treats move prediction as a sequence modeling problem. Training on 41,738 professional games, I designed a custom tokenization system and multi-output architecture that achieves strategic pattern learning beyond random play. The project challenged me to think about game AI from a completely different angle – viewing chess moves as language sequences rather than traditional tree search problems.
 
-### Deep Learning, Machine Learning  
-- Analyzed design principles behind various deep learning architectures and their suitability for tasks such as super-resolution, reinforcement learning, self-driving cars, and language modeling.  
-- Developed strong theoretical understanding of architectural trade-offs, including convolutional (CNN) vs. transformer-based models.  
-- Studied ML paradigms (supervised, unsupervised, reinforcement) from probabilistic and functional views.  
-- Implemented particle filtering, k-means, object tracking; participated in Kaggle movie revenue prediction.
+### Production ML Systems at iSWIM
+At iSWIM Technology, I've been architecting end-to-end AI systems that process real business data. My latest project is a report generation system that combines React frontends, ASP.NET backends, and Python FastAPI services with RAG capabilities. The system uses RabbitMQ job queues for async audio transcription with local GPU inference, reducing report creation time by several hours per report.
+
+I also built a data annotation tool that transforms unstructured notes into structured event data – the kind of "invisible AI" that makes workflows smoother without users even realizing there's ML happening behind the scenes.
 
 ---
 
-## Education
+## My Journey
 
-**BEng in Computer Science**  
-The University of Hong Kong – Ranked 17th globally and 18th in Data Science and AI (QS World University Rankings 2025)  
-*2019 – 2023*  
-- Second Class Honours (Division One)  
-- Core Courses: Programming, Data Structures, OS, Networks, Algorithms, Software Engineering  
-- Electives: Deep Learning, NLP, Machine Learning, Big Data & Data Mining, IoT, Statistics, Security  
-- Final Year Project supervised by [Prof. Lingpeng Kong](https://ikekonglp.github.io/)
+My path into AI wasn't linear. I started with traditional software development during internships at TRM and Aspex Management, building document management systems and data pipelines. But I kept gravitating toward the challenging problems: How do you extract meaning from messy documents? How do you predict outcomes from incomplete data?
+
+This curiosity led me to dive deep into machine learning during my final year at HKU, where I built a distributed sentiment analysis system under [Prof. Lingpeng Kong's](https://ikekonglp.github.io/) supervision. The project taught me that the real challenge isn't just training models – it's building systems that can process data at scale, serve predictions reliably, and integrate seamlessly with existing workflows.
+
+Since graduating, I've focused on bridging the gap between cutting-edge AI research and practical business applications. Whether it's document classification models that process hundreds of pages daily or RAG systems that align with users' writing styles, I'm most excited when AI becomes a natural, helpful part of someone's workflow.
 
 ---
 
-## Skills
+## Beyond Code
 
-- **Languages:** Cantonese (Native), English (Advanced), Mandarin (Advanced)  
-- **Programming Languages:** Python, Java, JavaScript, C#, C, C++, SQL  
-- **ML/AI Frameworks & Libraries:** LangChain, PyTorch, scikit-learn, XGBoost, Hugging Face, spaCy, PyTorch Lightning, OpenMMLab  
-- **LLMs:** OpenAI models (GPT-3.5, GPT-4, GPT-4o, GPT-4.1), Claude, Gemini  
-- **MLOps/AIOps Infrastructure:** Docker, FastAPI, Flask, Django, Dify, Langflow, Flowise, Qdrant, Git, CI/CD for ML, Model Versioning, Reproducibility  
-- **Cloud Computing:** GCP, AWS, Azure  
-- **Data Tools:** Pandas, NumPy, Selenium  
-- **Other:** Linux, Windows
+When I'm not training models or debugging distributed systems, you'll find me exploring game theory through chess variants, reading about cognitive science, or experimenting with new ML architectures. I'm particularly interested in how different cultures approach strategic thinking – which is partly what inspired the ElephantFormer project.
 
+I'm also passionate about making AI more accessible. Too often, amazing research stays trapped in academic papers. I believe the future belongs to engineers who can take those breakthrough ideas and turn them into systems that actually help people.
+
+---
+
+## Technical Background
+
+**Current Focus:** Production ML systems, RAG applications, distributed AI architectures
+
+**Languages & Frameworks:** Python, C#, JavaScript, PyTorch, React, ASP.NET, FastAPI
+
+**AI/ML:** LLMs (OpenAI, Claude, Gemini), transformers, computer vision, NLP, time series forecasting
+
+**Infrastructure:** Docker, RabbitMQ, GPU inference, cloud platforms (GCP, AWS, Azure)
+
+**Education:** BEng Computer Science, University of Hong Kong (2019-2023)
+
+---
+
+Looking to collaborate on interesting AI projects or just want to chat about the future of artificial intelligence? Feel free to reach out – I'm always excited to connect with fellow builders and thinkers!
