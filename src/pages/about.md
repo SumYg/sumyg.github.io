@@ -14,7 +14,7 @@ Currently, I'm fascinated by the intersection of traditional software engineerin
 ## What I'm Working On
 
 ### AI-Powered Chess Engine: ElephantFormer
-I recently built an end-to-end transformer-based chess AI for Xiangqi (Chinese Chess) that treats move prediction as a sequence modeling problem. Training on ~300 out of 41,738 professional games, I designed a custom tokenization system and multi-output architecture that achieves strategic pattern learning beyond random play. The project challenged me to think about game AI from a completely different angle – viewing chess moves as language sequences rather than traditional tree search problems.
+I recently built an end-to-end transformer-based [chess AI](/posts/elephantformer) for Elephant Chess (Chinese Chess) that treats move prediction as a sequence modeling problem. Training on ~300 out of 41,738 professional games, I designed a custom tokenization system and multi-output architecture that achieves strategic pattern learning beyond random play. The project challenged me to think about game AI from a completely different angle – viewing chess moves as language sequences rather than traditional tree search problems.
 
 ### Production ML Systems at iSWIM
 At [iSWIM Technology](https://iswim.com.hk/), I've been architecting end-to-end AI systems that process real business data. My latest project is a report generation system that combines React frontends, ASP.NET backends, and Python FastAPI services with RAG capabilities. The system uses RabbitMQ job queues for async audio transcription with local GPU inference, reducing report creation time by several hours per report.
