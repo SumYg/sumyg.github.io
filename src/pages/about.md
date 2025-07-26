@@ -51,7 +51,7 @@ I'm also passionate about making AI more accessible. Too often, amazing research
 
 **Infrastructure:** Docker, RabbitMQ, GPU inference, cloud platforms (GCP, AWS, Azure)
 
-**Education:** BEng Computer Science, University of Hong Kong (2019-2023)
+**Education:** BEng Computer Science, [University of Hong Kong](https://www.hku.hk/) (2019-2023)
 
 ---
 
