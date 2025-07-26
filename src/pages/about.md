@@ -14,10 +14,10 @@ Currently, I'm fascinated by the intersection of traditional software engineerin
 ## What I'm Working On
 
 ### AI-Powered Chess Engine: ElephantFormer
-I recently built an end-to-end transformer-based chess AI for Xiangqi (Chinese Chess) that treats move prediction as a sequence modeling problem. Training on 41,738 professional games, I designed a custom tokenization system and multi-output architecture that achieves strategic pattern learning beyond random play. The project challenged me to think about game AI from a completely different angle – viewing chess moves as language sequences rather than traditional tree search problems.
+I recently built an end-to-end transformer-based chess AI for Xiangqi (Chinese Chess) that treats move prediction as a sequence modeling problem. Training on ~300 out of 41,738 professional games, I designed a custom tokenization system and multi-output architecture that achieves strategic pattern learning beyond random play. The project challenged me to think about game AI from a completely different angle – viewing chess moves as language sequences rather than traditional tree search problems.
 
 ### Production ML Systems at iSWIM
-At iSWIM Technology, I've been architecting end-to-end AI systems that process real business data. My latest project is a report generation system that combines React frontends, ASP.NET backends, and Python FastAPI services with RAG capabilities. The system uses RabbitMQ job queues for async audio transcription with local GPU inference, reducing report creation time by several hours per report.
+At [iSWIM Technology](https://iswim.com.hk/), I've been architecting end-to-end AI systems that process real business data. My latest project is a report generation system that combines React frontends, ASP.NET backends, and Python FastAPI services with RAG capabilities. The system uses RabbitMQ job queues for async audio transcription with local GPU inference, reducing report creation time by several hours per report.
 
 I also built a data annotation tool that transforms unstructured notes into structured event data – the kind of "invisible AI" that makes workflows smoother without users even realizing there's ML happening behind the scenes.
 
@@ -25,9 +25,9 @@ I also built a data annotation tool that transforms unstructured notes into stru
 
 ## My Journey
 
-My path into AI wasn't linear. I started with traditional software development during internships at TRM and Aspex Management, building document management systems and data pipelines. But I kept gravitating toward the challenging problems: How do you extract meaning from messy documents? How do you predict outcomes from incomplete data?
+My path into AI wasn't linear. I started with traditional software development during internships at [TRM](https://www.trm.com.hk/) and [Aspex Management](https://www.aspexmanagement.com/), building document management systems and data pipelines. But I kept gravitating toward the challenging problems: How do you extract meaning from messy documents? How do you predict outcomes from incomplete data?
 
-This curiosity led me to dive deep into machine learning during my final year at HKU, where I built a distributed sentiment analysis system under [Prof. Lingpeng Kong's](https://ikekonglp.github.io/) supervision. The project taught me that the real challenge isn't just training models – it's building systems that can process data at scale, serve predictions reliably, and integrate seamlessly with existing workflows.
+This curiosity led me to dive deep into machine learning during my final year at HKU, where I built a large scale [sentiment analysis system](https://github.com/SumYg/FYP-Sentiment-Analysis-System) under [Prof. Lingpeng Kong](https://ikekonglp.github.io/)'s supervision. The project taught me that the real challenge isn’t just building pipelines – it’s understanding the math behind models like VAEs, where concepts like KL divergence show up again and again across machine learning. It deepened my intuition for how models learn structured representations, especially in noisy, high-dimensional data.
 
 Since graduating, I've focused on bridging the gap between cutting-edge AI research and practical business applications. Whether it's document classification models that process hundreds of pages daily or RAG systems that align with users' writing styles, I'm most excited when AI becomes a natural, helpful part of someone's workflow.
 
@@ -35,9 +35,9 @@ Since graduating, I've focused on bridging the gap between cutting-edge AI resea
 
 ## Beyond Code
 
-When I'm not training models or debugging distributed systems, you'll find me exploring game theory through chess variants, reading about cognitive science, or experimenting with new ML architectures. I'm particularly interested in how different cultures approach strategic thinking – which is partly what inspired the ElephantFormer project.
+When I'm not training models or debugging systems, keeping up with AI news, exploring new architectures, and experimenting with machine learning beyond my day-to-day work. ElephantFormer was one such project — sparked by my curiosity about applying Transformers to gameplay, a less traditional domain, and my desire to understand how reinforcement learning algorithms like PPO, used in the post-training phase, contribute to the success of modern LLMs.
 
-I'm also passionate about making AI more accessible. Too often, amazing research stays trapped in academic papers. I believe the future belongs to engineers who can take those breakthrough ideas and turn them into systems that actually help people.
+I'm always looking for new ways to learn — whether through hands-on projects, reading about recent breakthroughs, or digging into the techniques that make modern AI systems work in practice.
 
 ---
 
